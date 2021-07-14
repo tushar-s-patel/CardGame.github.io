@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color:rgba(0 ,0 ,0 ,1) ;
+	color: white;
+	font-family: 'Otomanopee One', sans-serif;
+}
+.c1{
+	background-color: rgb(80,80,80);
+	 width: 100w;
+	 display: flex;
+	justify-content: space-evenly;
+}
+
+#c12{
+	padding:1rem;
+	font-size: 1rem;
+}
+
+#c11{
+	padding:1rem;
+	font-size: 1rem;
+}
+
+#cards{
+	 height: 30vh;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.cd{
+	margin: 1rem;
+	width: 10rem;
+	height: 12rem;
+	background-size: cover;
+	border: 1px solid black;
+	
+}
+.cd:hover{
+	border: 1px solid white;
+
+}
+.cover{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(80,80,80,1);
+	
+}
+
+.open{
+	transition: all 2s ease-in-out;
+	display: none;
+	
+}
+#score{
+	display:inline-block;
+}
