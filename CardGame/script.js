@@ -89,14 +89,14 @@ for (let i = cards.length - 1; i >= 0; i--) {
 
 function mover(i) {
 	let cd = document.getElementById(`cd${i}`)
-	while (true) {
-		let r=Math.floor(80+Math.random()*175);
-		let g=Math.floor(80+Math.random()*175);
-		let b=Math.floor(80+Math.random()*175);
-		console.log(`rgb(${r},${g},${b})`)
-		cd.style.boxShadow=`0px 0px 30px rgb(${r},${g},${b})`;
-		cd.style.border=`1px solid rgb(${r},${g},${b})`;
-	}
+	
+	let r=Math.floor(80+Math.random()*175);
+	let g=Math.floor(80+Math.random()*175);
+	let b=Math.floor(80+Math.random()*175);
+	console.log(`rgb(${r},${g},${b})`)
+	cd.style.boxShadow=`0px 0px 30px rgb(${r},${g},${b})`;
+	cd.style.border=`1px solid rgb(${r},${g},${b})`;
+	
 }
 function mout(i) {
 	
