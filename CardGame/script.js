@@ -88,10 +88,12 @@ for (let i = cards.length - 1; i >= 0; i--) {
 }
 
 function mover(i) {
-	let r=Math.floor(80+Math.random()*175);
-	let g=Math.floor(80+Math.random()*175);
-	let b=Math.floor(80+Math.random()*175);
-	document.getElementById(`cd${i}`).style.boxShadow=`0px 0px 20px rgb(${r},${g},${b})`;
+	while (true){
+		let r=Math.floor(80+Math.random()*175);
+		let g=Math.floor(80+Math.random()*175);
+		let b=Math.floor(80+Math.random()*175);
+	}
+	document.getElementById(`cd${i}`).style.boxShadow=`0px 0px 30px rgb(${r},${g},${b})`;
 	document.getElementById(`cd${i}`).style.border=`1px solid rgb(${r},${g},${b})`;
 }
 function mout(i) {
